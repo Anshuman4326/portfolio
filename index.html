@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anshuman Kumar | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="navbar">
+        <h1 class="logo">Anshuman<span>.</span></h1>
+        
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Hi, I'm <span>Anshuman Kumar</span></h2>
+            <p>Frontend Developer • Problem Solver • Tech Enthusiast</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            I'm a passionate web developer who loves crafting clean, responsive, 
+            and user-friendly websites. I enjoy turning ideas into real-world 
+            digital experiences using modern technologies.
+        </p>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="project-grid">
+            <article class="project-card">
+                <h3>Project One 🚀</h3>
+                <p>A modern web application built using HTML, CSS, and JavaScript.</p>
+                <a href="#" class="project-link">View Details →</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Project Two 💡</h3>
+                <p>An interactive project focused on performance and clean UI design.</p>
+                <a href="#" class="project-link">View Details →</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Project Three 🌐</h3>
+                <p>A responsive portfolio template with multiple theme support.</p>
+                <a href="#" class="project-link">View Details →</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact-section">
+        <h2 class="section-title">Let's Connect</h2>
+        <p>Have a project in mind or just want to say hi? 👋</p>
+        <p>📞 Phone: <a href="tel:+917488581032">+91 74885 81032</a></p>
+        <a href="mailto:your-email@example.com" class="btn primary-btn">
+            Send Me an Email
+        </a>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2026 Anshuman Kumar | Built with ❤️</p>
+    </footer>
+
+    <!-- ===== CHATBOT ===== -->
+    <button id="chat-toggle" class="chat-toggle">Chat</button>
+    <div id="chatbot" class="chatbot">
+        <div class="chat-header">Chat with me <span id="close-chat">×</span></div>
+        <div class="chat-messages"></div>
+        <div class="chat-input-container">
+            <input type="text" id="chat-input" placeholder="Type a message..." />
+            <button id="chat-send">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
